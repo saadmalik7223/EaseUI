@@ -1,17 +1,26 @@
 # EaseUI
-LIbrary based on JS function to create VANILLA ui in js html css project .... 
 
-just include
- "<div id="ease-navbar-root"></div>"
-in html give width and height if want otherwise it took default 100vw width and 120px height ,
+EaseUI is a JavaScript library for creating a simple and customizable navigation bar dynamically in your web projects.
 
-include our css and js file 
+## Features
 
-in js call function 
+- Easy integration: Just include a div with an ID and our CSS and JS files.
+- Dynamic: Create a navigation bar with customizable logo, menu items, and styling properties.
+- Lightweight: Designed to be minimal and easy to use.
 
-easeNavbar_v1();
-give parameter in function for creating loggo and menu item liek 
+## Usage
 
-easeNavbar_v1(["saad","malik,]); --> this create two menu item saad and malik 
-you can set each menu item href by 
-easeNavbar_v1([{name:"saad",href:"https;//saadanwar.com","malik,]); 
+1. Include the following HTML in your project:
+
+   ```html
+   <div id="ease-navbar-root"></div>
+call this fucntion 
+easeNavbar_v1(
+  [
+    { name: "Home", href: "#" },
+    { name: "Contact", href: "#" },
+    { name: "About Us", href: "#" },
+  ],
+  { logo_url: "path/to/logo.png", bg: "#333", size: "1rem", color: "white" }
+);
+
