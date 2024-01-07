@@ -15,6 +15,7 @@ EaseUI is a JavaScript library for creating a simple and customizable navigation
    ```html
    <div id="ease-navbar-root"></div>
 call this fucntion 
+```js
 easeNavbar_v1(
   [
     { name: "Home", href: "#" },
