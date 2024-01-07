@@ -15,6 +15,17 @@ EaseUI is a JavaScript library for creating a simple and customizable Website dy
 
 # Usage
 
+# Your Project Name
+
+[![npm version](https://img.shields.io/npm/v/@saadanwar/easeui.svg)](https://www.npmjs.com/package/@saadanwar/easeui)
+
+## Installation
+
+Install the package using npm:
+
+```bash
+npm install @saadanwar/easeui
+```
 To integrate these features into your project, follow the instructions in the respective sections below.
 
 ## Navbar
