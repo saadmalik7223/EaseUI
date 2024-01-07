@@ -34,4 +34,6 @@ easeNavbar_v1(
   ],
   { logo_url: "path/to/logo.png", bg: "#333", size: "1rem", color: "white" }
 );
+```
+![Alt text](path/to/your/image.jpg)
 
