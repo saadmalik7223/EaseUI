@@ -1,8 +1,8 @@
 # EaseUI
 
 EaseUI is a JavaScript library for creating a simple and customizable Website dynamically in your web projects.
-its include 
-# Project Features
+ 
+# its include
 
 - **Navbar:** A customizable navigation bar for easy navigation.
 - **Login Pages:** Secure and user-friendly login pages for authentication.
@@ -21,22 +21,10 @@ To integrate these features into your project, follow the instructions in the re
 
 Include the following HTML in your project:
 
-```html
-<div id="ease-navbar-root"></div>
-
-
-## Features
-
-- Easy integration: Just include a div with an ID and our CSS and JS files.
-- Dynamic: Create a navigation bar with customizable logo, menu items, and styling properties.
-- Lightweight: Designed to be minimal and easy to use.
-
-## Usage
-
-1. Include the following HTML in your project:
-
    ```html
    <div id="ease-navbar-root"></div>
+
+
 call this fucntion 
 ```js
 easeNavbar_v1(
