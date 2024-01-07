@@ -24,7 +24,7 @@ Include the following HTML in your project:
 ```html
 <div id="ease-navbar-root"></div>
 ```
-
+to creame navbar call this fucntion ......
 ```js
 easeNavbar_v1(
   [
