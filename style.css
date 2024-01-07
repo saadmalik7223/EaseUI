@@ -22,6 +22,9 @@
   width: 300px;
   height: 80%;
   background-color: black;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #ease-navbar-root nav ul {
   height: 80%;

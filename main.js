@@ -1,5 +1,4 @@
 function easeNavbar_v1(menuItems, propertie) {
-  console.log(menuItems, propertie.color);
   // Create the nav element
   var navElement = document.createElement("nav");
   navElement.style = `background-color: ${
@@ -8,6 +7,9 @@ function easeNavbar_v1(menuItems, propertie) {
   // Create the logo div
   var logoDiv = document.createElement("div");
   logoDiv.className = "logo";
+  logoDiv.style = `  background-image: url(${
+    propertie.logo_url ? propertie.logo_url : ""
+  });`;
   navElement.appendChild(logoDiv);
 
   // Create the ul element
@@ -42,7 +44,5 @@ easeNavbar_v1(
     "malik",
     { name: "anwar", href: "saadanwar.com" },
   ],
-  {}
+  { logo_url: "", bg: "pink" }
 );
-
-// saad
