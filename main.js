@@ -1,6 +1,11 @@
 function easeNavbar_v1(menuItems, propertie) {
   // root element of navbar
   var navbarRoot = document.getElementById("ease-navbar-root");
+
+  // this remove all navbar is have already
+  while (navbarRoot.firstChild) {
+    navbarRoot.removeChild(navbarRoot.firstChild);
+  }
   // if width present then set that otherwise default set width same for heigth
   navbarRoot.style = `width: ${
     propertie.width ? propertie.width : "100vw"
