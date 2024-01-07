@@ -21,14 +21,8 @@ To integrate these features into your project, follow the instructions in the re
 
 Include the following HTML in your project:
 ``` html
-  <script
-      defer
-      src="https://cdn.jsdelivr.net/gh/saadmalik7223/EaseUI@main/main.js"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/saadmalik7223/EaseUI@main/style.css"
-    />
+  <link rel="stylesheet" href="https://unpkg.com/@saadanwar/easeui@1.0.0/style.css"/>
+    <script defer src="https://unpkg.com/@saadanwar/easeui@1.0.0/main.js"></script>
 ```
 
 ```html
