@@ -21,11 +21,10 @@ To integrate these features into your project, follow the instructions in the re
 
 Include the following HTML in your project:
 
-   ```html
-   <div id="ease-navbar-root"></div>
+```html
+<div id="ease-navbar-root"></div>
+```
 
-
-call this fucntion 
 ```js
 easeNavbar_v1(
   [
