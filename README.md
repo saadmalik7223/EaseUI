@@ -20,6 +20,16 @@ To integrate these features into your project, follow the instructions in the re
 ## Navbar
 
 Include the following HTML in your project:
+``` html
+  <script
+      defer
+      src="https://cdn.jsdelivr.net/gh/saadmalik7223/EaseUI@main/main.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/saadmalik7223/EaseUI@main/style.css"
+    />
+```
 
 ```html
 <div id="ease-navbar-root"></div>
