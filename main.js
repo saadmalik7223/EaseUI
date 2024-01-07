@@ -50,11 +50,3 @@ function easeNavbar_v1(menuItems, propertie) {
   // Append the entire nav to the specified div with ID "ease-navbar-root"
   navbarRoot.appendChild(navElement);
 }
-easeNavbar_v1(
-  [
-    { name: "saad", href: "ss" },
-    "malik",
-    { name: "anwar", href: "saadanwar.com" },
-  ],
-  { logo_url: "", bg: "grey" }
-);
