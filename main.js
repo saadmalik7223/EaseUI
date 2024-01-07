@@ -1,4 +1,11 @@
 function easeNavbar_v1(menuItems, propertie) {
+  // root element of navbar
+  var navbarRoot = document.getElementById("ease-navbar-root");
+  // if width present then set that otherwise default set width same for heigth
+  navbarRoot.style = `width: ${
+    propertie.width ? propertie.width : "100vw"
+  };height: ${propertie.height ? propertie.height : "100px"};`;
+
   // Create the nav element
   var navElement = document.createElement("nav");
   navElement.style = `background-color: ${
@@ -35,7 +42,6 @@ function easeNavbar_v1(menuItems, propertie) {
   navElement.appendChild(ulElement);
 
   // Append the entire nav to the specified div with ID "ease-navbar-root"
-  var navbarRoot = document.getElementById("ease-navbar-root");
   navbarRoot.appendChild(navElement);
 }
 easeNavbar_v1(
@@ -44,5 +50,5 @@ easeNavbar_v1(
     "malik",
     { name: "anwar", href: "saadanwar.com" },
   ],
-  { logo_url: "", bg: "pink" }
+  { logo_url: "", bg: "grey" }
 );
