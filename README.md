@@ -32,8 +32,8 @@ To integrate these features into your project, follow the instructions in the re
 
 Include the following HTML in your project:
 ``` html
-  <link rel="stylesheet" href="https://unpkg.com/@saadanwar/easeui@1.0.0/style.css"/>
-    <script defer src="https://unpkg.com/@saadanwar/easeui@1.0.0/main.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@saadanwar/easeui@1.0.0/style.css"/>
+<script defer src="https://unpkg.com/@saadanwar/easeui@1.0.0/main.js"></script>
 ```
 
 ```html
